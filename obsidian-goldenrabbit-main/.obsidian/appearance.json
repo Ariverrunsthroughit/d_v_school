@@ -1,0 +1,9 @@
+{
+  "accentColor": "",
+  "cssTheme": "Things",
+  "enabledCssSnippets": [
+    "numbered-headers",
+    "heading"
+  ],
+  "theme": "moonstone"
+}

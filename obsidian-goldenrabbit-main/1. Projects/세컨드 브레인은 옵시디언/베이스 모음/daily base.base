@@ -1,0 +1,13 @@
+views:
+  - type: table
+    name: Daily
+    filters:
+      and:
+        - date(file.name)  >= date(this.file.name) - duration("3d")
+        - date(file.name)  <= date(this.file.name) + duration("3d")
+        - file != this.file
+    order:
+      - file.name
+      - file.ctime
+  - type: table
+    name: View

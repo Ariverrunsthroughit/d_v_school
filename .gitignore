@@ -1,0 +1,34 @@
+# Obsidian: 기기별 상태 (충돌·노이즈 방지)
+**/.obsidian/workspace.json
+**/.obsidian/workspace-mobile.json
+**/.obsidian/workspaces.json
+**/.obsidian/cache
+**/.obsidian/graph.json
+**/.trash/
+
+# 플러그인: 토큰/API 키가 들어갈 수 있는 설정
+**/.obsidian/plugins/readwise-official/data.json
+**/.obsidian/plugins/obsidian-zotero-desktop-connector/data.json
+
+# 플러그인 빌드 산출물은 추적 (재설치 가능하면 아래 주석 해제)
+# **/.obsidian/plugins/*/main.js
+
+# 대용량 원본 내보내기 / 압축 파일
+*.zip
+**/conversations*.json
+**/manifest-*.json
+
+# Claude Code 로컬 설정
+.claude/settings.local.json
+**/.claude/settings.local.json
+
+# OS / 에디터
+.DS_Store
+Thumbs.db
+desktop.ini
+*.tmp
+*.swp
+*~
+
+# 고객사 대화 기록 포함 - 원격 저장소에 올리지 않음
+obsedian/
